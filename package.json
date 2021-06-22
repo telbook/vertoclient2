@@ -1,0 +1,24 @@
+{
+  "name": "vertoclient2",
+  "version": "1.0.0",
+  "description": "Verto client version 2 to connect to freeswitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telbook/vertoclient2.git"
+  },
+  "author": "NPH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/telbook/vertoclient2/issues"
+  },
+  "homepage": "https://github.com/telbook/vertoclient2#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-json": "^2.6.0",
+    "verto": "^0.1.1"
+  }
+}

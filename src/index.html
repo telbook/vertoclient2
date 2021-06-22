@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verto Client by NPH@2021</title>
+    <meta name="description" content="Webclient connect to Freeswitch" />
+    <meta name="author" content="NPH" />
+    <link rel="stylesheet" href="media/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Verto - Demo Application</h1>
+      <button id="make-call">Make call</button>
+      <button id="hang-up-call">Hang up call</button>
+      <button id="answer-call">Answer call</button>
+      <video
+        id="video-container"
+        autoplay="autoplay"
+        class="video-style"
+      ></video>
+    </div>
+    <!-- /container -->
+    <!-- Verto dependencies -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery-json/dist/jquery.json.min.js"></script>
+
+    <!-- Verto library -->
+    <script src="../node_modules/verto/src/jquery.verto.js"></script>
+    <script src="../node_modules/verto/src/jquery.FSRTC.js"></script>
+    <script src="../node_modules/verto/src/jquery.jsonrpcclient.js"></script>
+    <script src="media/js/main.js"></script>
+  </body>
+</html>
